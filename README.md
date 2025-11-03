@@ -357,7 +357,8 @@ rpg/
 
 ---
 
-## 🧠 Technical Deep Dive
+## 🧠 Technical Rationale
+
 
 ### Why Qwen3-VL-2B-Instruct?
 - **No paid APIs** - Challenge constraint required open-source models
