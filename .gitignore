@@ -62,8 +62,7 @@ Thumbs.db
 .paddleocr/
 inference/
 
-# Downloaded models
-models/
+
 
 # Jupyter
 .ipynb_checkpoints/
