@@ -1,0 +1,31 @@
+```json
+{
+  "merchant_name": "OJC MARKETING SDN BHD",
+  "total_amount": "193.00",
+  "date": "15/01/2019",
+  "time": "11:05:16 AM",
+  "address": "NO 2 & 4, JALAN BAYU 4, BANDAR SERI ALAM, 81750 MASAI, JOHOR",
+  "phone": "07-388 2218",
+  "subtotal": "193.00",
+  "tax": "0.00",
+  "payment_method": "VISA CARD",
+  "transaction_id": "PEGIV-1030765",
+  "any other visible fields": [
+    "Sales Person: FATIN",
+    "Bill To: THE PEAK QUARRY WORKS",
+    "Address: ..",
+    "Description": "KINGS SAFETY SHOES KWD B05",
+    "Qty": "1",
+    "Price": "193.00",
+    "Amount": "193.00 SR",
+    "Total Exclude GST": "193.00",
+    "Total GST @6%": "0.00",
+    "Total Inclusive GST": "193.00",
+    "Round Amt": "0.00",
+    "TOTAL!": "193.00",
+    "Approval Code:000",
+    "xxx0000000x4318",
+    "193.00"
+  ]
+}
+```

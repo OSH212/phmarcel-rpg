@@ -1,0 +1,34 @@
+# Core FastAPI dependencies
+fastapi==0.120.3
+uvicorn[standard]==0.38.0
+pydantic==2.12.3
+pydantic-settings==2.11.0
+email-validator==2.3.0
+python-multipart==0.0.20
+
+# Database
+sqlalchemy==2.0.44
+aiosqlite==0.21.0
+
+# ML and Vision-Language Models
+# PyTorch with CUDA 12.6 support
+--index-url https://download.pytorch.org/whl/cu126
+torch==2.9.0+cu126
+torchvision==0.24.0+cu126
+# Transformers for Qwen3-VL model
+transformers==4.57.1
+accelerate==1.11.0
+# Image processing
+pillow==12.0.0
+pdf2image==1.17.0
+# Note: pdf2image requires poppler-utils system package
+# Install with: sudo apt-get install -y poppler-utils
+
+# Utilities
+python-dotenv==1.2.1
+
+# Testing
+pytest==8.4.2
+pytest-asyncio==1.2.0
+httpx==0.28.1
+

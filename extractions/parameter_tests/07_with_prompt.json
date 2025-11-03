@@ -1,0 +1,107 @@
+{
+  "test_name": "07_with_prompt",
+  "image_path": "sample_docs/T4_sample.JPG",
+  "parameters": {
+    "prompt_label": "Extract all form fields, labels, and values from this tax document"
+  },
+  "num_layout_boxes": 4,
+  "num_text_blocks": 4,
+  "text_length": 129,
+  "layout_boxes": [
+    {
+      "cls_id": 2,
+      "label": "aside_text",
+      "score": 0.8668525815010071,
+      "coordinate": [
+        73.79747009277344,
+        263.5035400390625,
+        104.25950622558594,
+        998.9749755859375
+      ]
+    },
+    {
+      "cls_id": 12,
+      "label": "header",
+      "score": 0.7265722751617432,
+      "coordinate": [
+        1531.719482421875,
+        13.535140991210938,
+        1647.52880859375,
+        40.151527404785156
+      ]
+    },
+    {
+      "cls_id": 22,
+      "label": "text",
+      "score": 0.5733113288879395,
+      "coordinate": [
+        1395.7100830078125,
+        54.69593048095703,
+        1448.3494873046875,
+        93.70452117919922
+      ]
+    },
+    {
+      "cls_id": 22,
+      "label": "text",
+      "score": 0.7585604190826416,
+      "coordinate": [
+        1219.11767578125,
+        98.10240173339844,
+        1622.52880859375,
+        158.5149383544922
+      ]
+    }
+  ],
+  "text_blocks": [
+    {
+      "block_label": "aside_text",
+      "block_content": "Protected B when completed / Protégé B une fois rempli",
+      "block_bbox": [
+        73,
+        263,
+        104,
+        998
+      ],
+      "block_id": 0,
+      "block_order": null
+    },
+    {
+      "block_label": "header",
+      "block_content": "Clear Data",
+      "block_bbox": [
+        1531,
+        13,
+        1647,
+        40
+      ],
+      "block_id": 1,
+      "block_order": null
+    },
+    {
+      "block_label": "text",
+      "block_content": "T4",
+      "block_bbox": [
+        1395,
+        54,
+        1448,
+        93
+      ],
+      "block_id": 2,
+      "block_order": 1
+    },
+    {
+      "block_label": "text",
+      "block_content": "Statement of Remuneration Paid\nÉtat de la rémunération payée",
+      "block_bbox": [
+        1219,
+        98,
+        1622,
+        158
+      ],
+      "block_id": 3,
+      "block_order": 2
+    }
+  ],
+  "full_text": "Protected B when completed / Protégé B une fois rempli\nClear Data\nT4\nStatement of Remuneration Paid\nÉtat de la rémunération payée"
+}

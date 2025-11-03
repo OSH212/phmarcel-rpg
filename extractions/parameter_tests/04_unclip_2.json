@@ -1,0 +1,107 @@
+{
+  "test_name": "04_unclip_2",
+  "image_path": "sample_docs/T4_sample.JPG",
+  "parameters": {
+    "layout_unclip_ratio": 2.0
+  },
+  "num_layout_boxes": 4,
+  "num_text_blocks": 4,
+  "text_length": 213,
+  "layout_boxes": [
+    {
+      "cls_id": 2,
+      "label": "aside_text",
+      "score": 0.8668525815010071,
+      "coordinate": [
+        58.56645965576172,
+        0,
+        119.49051666259766,
+        1136
+      ]
+    },
+    {
+      "cls_id": 12,
+      "label": "header",
+      "score": 0.7265722751617432,
+      "coordinate": [
+        1473.8148193359375,
+        0.22694778442382812,
+        1705.4334716796875,
+        53.459720611572266
+      ]
+    },
+    {
+      "cls_id": 22,
+      "label": "text",
+      "score": 0.5733113288879395,
+      "coordinate": [
+        1369.390380859375,
+        35.1916389465332,
+        1474.669189453125,
+        113.20881652832031
+      ]
+    },
+    {
+      "cls_id": 22,
+      "label": "text",
+      "score": 0.7585604190826416,
+      "coordinate": [
+        1017.4119873046875,
+        67.89612579345703,
+        1754,
+        188.72122192382812
+      ]
+    }
+  ],
+  "text_blocks": [
+    {
+      "block_label": "aside_text",
+      "block_content": "T4 (24) Protected B when completed / Protégé B une fois rempli",
+      "block_bbox": [
+        58,
+        0,
+        119,
+        1136
+      ],
+      "block_id": 0,
+      "block_order": null
+    },
+    {
+      "block_label": "header",
+      "block_content": "Clear Data",
+      "block_bbox": [
+        1473,
+        0,
+        1705,
+        53
+      ],
+      "block_id": 1,
+      "block_order": null
+    },
+    {
+      "block_label": "text",
+      "block_content": "T4\n€ Romun",
+      "block_bbox": [
+        1369,
+        35,
+        1474,
+        113
+      ],
+      "block_id": 2,
+      "block_order": 1
+    },
+    {
+      "block_label": "text",
+      "block_content": "Agence du revenu du Canada\n14\nStatement of Remuneration Paid\nÉtat de la rémunération payée\nEmployment income\nIncome tax deducted",
+      "block_bbox": [
+        1017,
+        67,
+        1754,
+        188
+      ],
+      "block_id": 3,
+      "block_order": 2
+    }
+  ],
+  "full_text": "T4 (24) Protected B when completed / Protégé B une fois rempli\nClear Data\nT4\n€ Romun\nAgence du revenu du Canada\n14\nStatement of Remuneration Paid\nÉtat de la rémunération payée\nEmployment income\nIncome tax deducted"
+}

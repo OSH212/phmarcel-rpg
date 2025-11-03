@@ -1,0 +1,111 @@
+```json
+{
+  "employer_info": {
+    "employer_name": "Ready Plan Go Inc.",
+    "employer_address_line1": "123, Maple St.",
+    "employer_address_line2": "Montreal, QC",
+    "employer_account_number": "RBQ1920384756"
+  },
+  "employee_info": {
+    "employee_name": "PRIME OPTIMUS",
+    "employee_address_line1": "321, Cedar St.",
+    "employee_address_line2": "Westmount, QC",
+    "social_insurance_number": "909 432 781"
+  },
+  "year": "2024",
+  "boxes": {
+    "box_12": {
+      "label": "Social insurance number",
+      "value": "909 432 781"
+    },
+    "box_14": {
+      "label": "Employment income",
+      "value": "4,209.90"
+    },
+    "box_16": {
+      "label": "Employee's CPP contributions",
+      "value": "10.00"
+    },
+    "box_17": {
+      "label": "Employee's QPP contributions",
+      "value": "11.00"
+    },
+    "box_18": {
+      "label": "Employee's EI premiums",
+      "value": "9,876.00"
+    },
+    "box_20": {
+      "label": "RPP contributions",
+      "value": "87.00"
+    },
+    "box_22": {
+      "label": "Income tax deducted",
+      "value": "99.10"
+    },
+    "box_24": {
+      "label": "EI insurable earnings",
+      "value": "109.00"
+    },
+    "box_26": {
+      "label": "CPP/QPP pensionable earnings",
+      "value": "889.00"
+    },
+    "box_28": {
+      "label": "CPP/QPP Exempt",
+      "value": "28"
+    },
+    "box_29": {
+      "label": "Employment code",
+      "value": "16"
+    },
+    "box_44": {
+      "label": "Union dues",
+      "value": "78,658.00"
+    },
+    "box_46": {
+      "label": "Charitable donations",
+      "value": "8,760.00"
+    },
+    "box_50": {
+      "label": "RPP or DPSP registration number",
+      "value": "4576578"
+    },
+    "box_52": {
+      "label": "Pension adjustment",
+      "value": "87.00"
+    },
+    "box_55": {
+      "label": "Employee's PPIP premiums",
+      "value": "798.00"
+    },
+    "box_56": {
+      "label": "PPIP insurable earnings",
+      "value": "889.00"
+    },
+    "box_30": {
+      "label": "Other information",
+      "value": "98,787.00"
+    },
+    "box_36": {
+      "label": "Other information",
+      "value": "889.00"
+    },
+    "box_39": {
+      "label": "Other information",
+      "value": "3,456,635.00"
+    },
+    "box_57": {
+      "label": "Other information",
+      "value": "3,546.00"
+    },
+    "box_77": {
+      "label": "Other information",
+      "value": "8,999.00"
+    },
+    "box_91": {
+      "label": "Other information",
+      "value": "98,789.00"
+    }
+  }
+}
+```

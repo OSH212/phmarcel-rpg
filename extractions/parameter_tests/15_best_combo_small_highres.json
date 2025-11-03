@@ -1,0 +1,564 @@
+{
+  "test_name": "15_best_combo_small_highres",
+  "parameters": {
+    "use_layout_detection": true,
+    "layout_threshold": 0.1,
+    "layout_unclip_ratio": 2.5,
+    "layout_nms": false,
+    "prompt_label": "Extract all text, form fields, labels, and values",
+    "layout_merge_bboxes_mode": "small",
+    "min_pixels": 65536,
+    "max_pixels": 4194304
+  },
+  "metrics": {
+    "layout_boxes": 21,
+    "text_blocks": 21,
+    "total_chars": 535
+  },
+  "full_text": "16A\n20\n2024\nint - Montant 889.00\n87.00\nBox-Case\nassurables d'AL\n109.00\n52\nNumero d'assurance sociale\n909 432 781\nAmount – Montant\nAmount - Montant 3,456,635.00\nBox – Case\nOPTIMUS\nAmount - Montant 3,546.00\nCotisations syndicales\n78,658.00\nCanada Revenue Agency Agence du Canada\nBQRQ1920384756\n8,999.00\nT4 (24) Protected B when completed / Protégé B une fois rempli\nClear Data\nRevenue Agence du revenu du Canada\nT4\nStatement of Remuneration Paid\nÉtat de la rémunération payée\nEmployment income\nIncome tax deducted\nRevenus d'emploi\nImpôt sur le revenu retenu",
+  "raw_result": {
+    "input_path": "sample_docs/T4_sample.JPG",
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_layout_detection": true,
+      "use_chart_recognition": false,
+      "format_block_content": false
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "16A",
+        "block_bbox": [
+          936,
+          395,
+          1035,
+          464
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "text",
+        "block_content": "20",
+        "block_bbox": [
+          944,
+          668,
+          1027,
+          743
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "text",
+        "block_content": "2024",
+        "block_bbox": [
+          850,
+          96,
+          996,
+          163
+        ],
+        "block_id": 2,
+        "block_order": 3
+      },
+      {
+        "block_label": "text",
+        "block_content": "int - Montant 889.00",
+        "block_bbox": [
+          1025,
+          955,
+          1215,
+          1026
+        ],
+        "block_id": 3,
+        "block_order": 4
+      },
+      {
+        "block_label": "text",
+        "block_content": "87.00",
+        "block_bbox": [
+          1139,
+          678,
+          1291,
+          747
+        ],
+        "block_id": 4,
+        "block_order": 5
+      },
+      {
+        "block_label": "text",
+        "block_content": "Box-Case",
+        "block_bbox": [
+          713,
+          1009,
+          939,
+          1061
+        ],
+        "block_id": 5,
+        "block_order": 6
+      },
+      {
+        "block_label": "text",
+        "block_content": "assurables d'AL\n109.00",
+        "block_bbox": [
+          1119,
+          496,
+          1301,
+          562
+        ],
+        "block_id": 6,
+        "block_order": 7
+      },
+      {
+        "block_label": "text",
+        "block_content": "52",
+        "block_bbox": [
+          945,
+          761,
+          1027,
+          836
+        ],
+        "block_id": 7,
+        "block_order": 8
+      },
+      {
+        "block_label": "text",
+        "block_content": "Numero d'assurance sociale\n909 432 781",
+        "block_bbox": [
+          176,
+          405,
+          507,
+          474
+        ],
+        "block_id": 8,
+        "block_order": 9
+      },
+      {
+        "block_label": "text",
+        "block_content": "Amount – Montant",
+        "block_bbox": [
+          866,
+          1007,
+          1238,
+          1063
+        ],
+        "block_id": 9,
+        "block_order": 10
+      },
+      {
+        "block_label": "text",
+        "block_content": "Amount - Montant 3,456,635.00",
+        "block_bbox": [
+          912,
+          1032,
+          1263,
+          1107
+        ],
+        "block_id": 10,
+        "block_order": 11
+      },
+      {
+        "block_label": "text",
+        "block_content": "Box – Case",
+        "block_bbox": [
+          730,
+          952,
+          915,
+          1031
+        ],
+        "block_id": 11,
+        "block_order": 12
+      },
+      {
+        "block_label": "text",
+        "block_content": "OPTIMUS",
+        "block_bbox": [
+          487,
+          574,
+          764,
+          646
+        ],
+        "block_id": 12,
+        "block_order": 13
+      },
+      {
+        "block_label": "text",
+        "block_content": "Amount - Montant 3,546.00",
+        "block_bbox": [
+          521,
+          1032,
+          761,
+          1105
+        ],
+        "block_id": 13,
+        "block_order": 14
+      },
+      {
+        "block_label": "text",
+        "block_content": "Cotisations syndicales\n78,658.00",
+        "block_bbox": [
+          1441,
+          584,
+          1708,
+          654
+        ],
+        "block_id": 14,
+        "block_order": 15
+      },
+      {
+        "block_label": "text",
+        "block_content": "Canada Revenue Agency Agence du Canada",
+        "block_bbox": [
+          729,
+          24,
+          1103,
+          132
+        ],
+        "block_id": 15,
+        "block_order": 16
+      },
+      {
+        "block_label": "text",
+        "block_content": "BQRQ1920384756",
+        "block_bbox": [
+          220,
+          296,
+          682,
+          365
+        ],
+        "block_id": 16,
+        "block_order": 17
+      },
+      {
+        "block_label": "text",
+        "block_content": "8,999.00",
+        "block_bbox": [
+          1461,
+          1033,
+          1701,
+          1104
+        ],
+        "block_id": 17,
+        "block_order": 18
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "T4 (24) Protected B when completed / Protégé B une fois rempli",
+        "block_bbox": [
+          50,
+          0,
+          127,
+          1136
+        ],
+        "block_id": 18,
+        "block_order": null
+      },
+      {
+        "block_label": "header",
+        "block_content": "Clear Data",
+        "block_bbox": [
+          1444,
+          0,
+          1734,
+          60
+        ],
+        "block_id": 19,
+        "block_order": null
+      },
+      {
+        "block_label": "text",
+        "block_content": "Revenue Agence du revenu du Canada\nT4\nStatement of Remuneration Paid\nÉtat de la rémunération payée\nEmployment income\nIncome tax deducted\nRevenus d'emploi\nImpôt sur le revenu retenu",
+        "block_bbox": [
+          916,
+          52,
+          1754,
+          203
+        ],
+        "block_id": 20,
+        "block_order": 19
+      }
+    ],
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.3281976282596588,
+          "coordinate": [
+            62.10635757446289,
+            978.534423828125,
+            121.58149719238281,
+            1136
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.12887947261333466,
+          "coordinate": [
+            936.3407592773438,
+            395.23028564453125,
+            1035.6793212890625,
+            464.51068115234375
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.11325770616531372,
+          "coordinate": [
+            944.3806762695312,
+            668.6690673828125,
+            1027.025390625,
+            743.879638671875
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.1107393428683281,
+          "coordinate": [
+            850.8353271484375,
+            96.81475830078125,
+            996.9893798828125,
+            163.58529663085938
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.10877007991075516,
+          "coordinate": [
+            1025.4244384765625,
+            955.303466796875,
+            1215.8392333984375,
+            1026.7259521484375
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.10174775123596191,
+          "coordinate": [
+            1139.10791015625,
+            678.0786743164062,
+            1291.831787109375,
+            747.1559448242188
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.10186605155467987,
+          "coordinate": [
+            713.0811157226562,
+            1009.2114868164062,
+            939.4115600585938,
+            1061.66455078125
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.1099880263209343,
+          "coordinate": [
+            1119.056640625,
+            496.02215576171875,
+            1301.43701171875,
+            562.6419067382812
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.10994076728820801,
+          "coordinate": [
+            945.7252197265625,
+            761.0858154296875,
+            1027.033203125,
+            836.890869140625
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.1341303288936615,
+          "coordinate": [
+            176.25047302246094,
+            405.890380859375,
+            507.53082275390625,
+            474.056396484375
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.10541612654924393,
+          "coordinate": [
+            866.860107421875,
+            1007.710205078125,
+            1238.677001953125,
+            1063.846435546875
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.11863823980093002,
+          "coordinate": [
+            912.8976440429688,
+            1032.119873046875,
+            1263.8426513671875,
+            1107.413818359375
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.11926426738500595,
+          "coordinate": [
+            730.356689453125,
+            952.6995849609375,
+            915.088134765625,
+            1031.7589111328125
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.10801475495100021,
+          "coordinate": [
+            487.7835998535156,
+            574.7440185546875,
+            764.1273193359375,
+            646.3243408203125
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.10246799141168594,
+          "coordinate": [
+            895.1619873046875,
+            26.892375946044922,
+            1283.3355712890625,
+            128.03579711914062
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.11342082917690277,
+          "coordinate": [
+            521.3311157226562,
+            1032.6805419921875,
+            761.5021362304688,
+            1105.4967041015625
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.10211951285600662,
+          "coordinate": [
+            1441.009521484375,
+            584.4017333984375,
+            1708.204345703125,
+            654.2513427734375
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.10314363986253738,
+          "coordinate": [
+            729.4193115234375,
+            24.424213409423828,
+            1103.962158203125,
+            132.77542114257812
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.12278851866722107,
+          "coordinate": [
+            916.1121826171875,
+            76.7598876953125,
+            1754,
+            149.47828674316406
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.10060274600982666,
+          "coordinate": [
+            220.67303466796875,
+            296.86517333984375,
+            682.4668579101562,
+            365.65472412109375
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.10434094816446304,
+          "coordinate": [
+            1461.272705078125,
+            1033.776611328125,
+            1701.042236328125,
+            1104.3779296875
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.866852343082428,
+          "coordinate": [
+            50.9510612487793,
+            0,
+            127.10618591308594,
+            1136
+          ]
+        },
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.726572573184967,
+          "coordinate": [
+            1444.862548828125,
+            0,
+            1734.385986328125,
+            60.113834381103516
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5733119249343872,
+          "coordinate": [
+            1356.23046875,
+            25.43951416015625,
+            1487.828857421875,
+            122.96102905273438
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7585600018501282,
+          "coordinate": [
+            916.558837890625,
+            52.79291534423828,
+            1754,
+            203.82443237304688
+          ]
+        }
+      ]
+    }
+  }
+}
